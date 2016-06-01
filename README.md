@@ -1,11 +1,13 @@
 # Easy Pickup
 
+## Contributors
+
 Made with <3 by Joshua Fang.
 Project design by Joshua Fang, Bryan Tseng, and Angela Lu.
 
 Easypickup is a system designed to ease the traffic congestion issues outside of Taipei American School.
 
-# The MIT License (MIT)
+## License
 
 Copyright (c) 2016 Joshua Fang
 

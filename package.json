@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/webpack -d --watch",
-    "build": "./node_modules/.bin/webpack -p"
+    "build": "./node_modules/.bin/webpack -p",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,8 @@
     "sass": "^0.5.0",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "eslint": "^2.8.0",
@@ -38,5 +41,6 @@
     "eslint-plugin-import": "^1.4.0",
     "eslint-plugin-jsx-a11y": "^0.6.2",
     "eslint-plugin-react": "^4.3.0"
-  }
+  },
+  "snyk": true
 }
